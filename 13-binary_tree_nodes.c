@@ -1,14 +1,15 @@
 #include "binary_trees.h"
 /**
-*CountNodesOnOneSide-calculates nodes in one side from initial root
+*countNodes - calculates nodes in one side from initial root
 *@tree: the node to start at
-*@nodes: node count
 *Return:size of one side of tree
 **/
 
 size_t countNodes(const binary_tree_t *tree)
 {
+
 	size_t nodes = 1;
+
 	if (tree->left == NULL && tree->right == NULL)
 		return (0);
 
