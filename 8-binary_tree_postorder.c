@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
-*binary_tree_postorder-
-*
-*
+*binary_tree_postorder-prints the tree in post order
+*@root: root of the node
+*@func: pointer to print-num function
 *
 *Return:
 **/
