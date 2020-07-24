@@ -5,7 +5,7 @@
 *@sibling: the node to check
 *
 *
-*Return:
+*Return:value of sibling, or nil
 **/
 
 binary_tree_t *binary_tree_sibling(binary_tree_t *sibling)
